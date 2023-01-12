@@ -36,8 +36,8 @@ loadApi();
           <article key={item.id} className="post">
             <strong className="titulo">{item.titulo}</strong>
 
-            <img src={item.capa} alt={item.titulo} className="capa"/>
-            <p className="subtitulo">
+            <img src={item.capa} alt={item.titulo} className="frontPage"/>
+            <p className="subtitle">
               {item.subtitulo}
             </p>
             <a className="button">Acessar</a>
